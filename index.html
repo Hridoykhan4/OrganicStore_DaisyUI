@@ -32,7 +32,7 @@
               body_neutral: "rgb(51,51,51)",
             },
             fontFamily: {
-              Poppins: ["Poppins", "sans-serif"], // Ensure fallback to sans-serif
+              Poppins: ["Poppins", "sans-serif"],
             },
             backgroundImage: {
               bannerBg: "url('./assets/leaf01.png')",
@@ -135,7 +135,7 @@
       <section class="bg-bannerBg bg-no-repeat bg-right-bottom">
         <div class="bg-body bg-opacity-90 w-full h-full">
           <div
-            class="lg:w-9/12 mx-auto items-center gap-10 py-28 flex sm:flex-row flex-col"
+            class="lg:w-9/12 mx-auto items-center gap-10 py-14 md:py-28 flex sm:flex-row flex-col"
           >
             <div class="flex-1">
               <img src="assets/bannerbg.png" alt="" />
@@ -154,7 +154,7 @@
               </p>
               <div class="flex sm:justify-start justify-center">
                 <button
-                  class="flex rounded-md gap-2 hover:bg-primary items-center bg-accent text-white px-10 py-5"
+                  class="flex rounded-md gap-2 hover:bg-primary items-center bg-accent text-white px-6 py-3"
                 >
                   <i class="fa-solid fa-shopping-cart"></i>
                   <span>Shop Now</span>
@@ -230,7 +230,11 @@
         <div class="w-11/12 mx-auto">
           <!-- Section Header -->
           <div class="flex flex-col my-10 justify-center items-center gap-2">
-            <img class="w-20" src="assets/leaf01.png" alt="Natural Products" />
+            <img
+              class="w-20 mx-auto block"
+              src="assets/leaf01.png"
+              alt="Natural Products"
+            />
             <h2 class="text-4xl font-semibold text-primary">
               Top Rated Organic Products
             </h2>
@@ -714,7 +718,7 @@
       </section>
 
       <section
-        class="bg-call_to_action h-96 py-56 bg-no-repeat bg-cover bg-center relative"
+        class="bg-call_to_action py-56 bg-no-repeat bg-cover bg-center relative"
       >
         <div
           class="absolute top-0 left-0 w-full h-full bg-secondary/30 flex justify-center items-center"
